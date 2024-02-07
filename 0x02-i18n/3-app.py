@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Get Locale from request
+Parametrize templates
 """
 from flask import Flask, render_template, request
 from flask_babel import Babel
@@ -33,7 +33,7 @@ def index_html() -> str:
     """
     Basic Flask app and handles the / route
     """
-    return render_template('2-index.html')
+    return render_template('3-index.html')
 
 
 if __name__ == "__main__":
