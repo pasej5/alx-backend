@@ -22,8 +22,8 @@ function displaySchoolValue(schoolName) {
       console.log(error);
       throw error;
     }
-    console.log(result);
   });
+  console.log(result);
 }
 
 displaySchoolValue('Holberton');
